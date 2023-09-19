@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeComponent } from './home.component';
+import { CanvasBoxComponent } from './logo-box.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+describe('CanvasBoxComponent', () => {
+  let component: CanvasBoxComponent;
+  let fixture: ComponentFixture<CanvasBoxComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HomeComponent]
+      declarations: [CanvasBoxComponent]
     });
-    fixture = TestBed.createComponent(HomeComponent);
+    fixture = TestBed.createComponent(CanvasBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

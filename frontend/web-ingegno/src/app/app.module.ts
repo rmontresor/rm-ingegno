@@ -1,4 +1,5 @@
 import { NgModule } from "@angular/core";
+import { environment } from "src/environments/environment";
 import { BrowserModule } from "@angular/platform-browser";
 
 import { AppComponent } from "./app.component";
