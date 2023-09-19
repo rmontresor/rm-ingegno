@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package*.json ./
 
 RUN npm install -g @angular/cli@16
-#RUN npm install -g angular-cli-ghpages
+RUN npm install -g angular-cli-ghpages
 RUN npm install -g firebase-tools
 RUN npm install
 
